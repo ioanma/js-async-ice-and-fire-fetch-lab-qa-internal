@@ -1,6 +1,6 @@
 function fetchBooks() {
   //write fetch request to the Game of Thrones API
-  fetch('https://anapioficeandfire.com/api/books?pageSize=1000')
+  fetch('https://anapioficeandfire.com/api/houses?pageSize=1000')
   .then(resp => resp.json())
   .then(json => console.log(json));
 }
